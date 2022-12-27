@@ -6,7 +6,6 @@
 import sys
 input = sys.stdin.readline
 
-
 def dfs(arr, idx):
     if len(arr) == m:
         print(*arr)
