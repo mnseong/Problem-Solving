@@ -31,7 +31,7 @@ def dfs(depth, board):
                 visited[i] = False
 
 
-N = int(input())
+N = int(input()) 
 visited = [False] * N
 board = [0] * N
 result = 0
